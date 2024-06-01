@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <header>
@@ -42,7 +43,7 @@
 
                 <div id="form">
 
-                    <div id="email">
+                    <div id="email_div">
 
                         <label for="email">Email</label>
 
@@ -68,7 +69,7 @@
 
                     <div id="senha">
 
-                    <label id="password" placeholder="Digite sua senha">Senha</label>
+                    <label id="password_label" placeholder="Digite sua senha">Senha</label>
                     <a href="#" id="esqueceu_senha">Esqueceu sua senha?</a>
 
                     </div>
@@ -93,7 +94,7 @@
 
                     <label class="toggle">
                         <div class="switch">
-                          <input type="checkbox" />
+                          <input id="checkbox" type="checkbox" />
                           <span class="slider"></span>
                         </div>
                         <a id="remember" href="#">Lembrar-se de mim</a>
@@ -101,22 +102,24 @@
 
                 </div>
 
-                <div id="entrar_button">
+                <div class="entrar_button">
 
-                    <button type="submit" class="btn-login">Entrar</button>
+                    <button type="submit" id="entrar_button">
+                        Entrar
+                    </button>
 
                 </div>
 
-                <div class="outro_login">
+                <div id="login_2">
 
-                    <button type="button" class="btn-google">
+                    <button type="button" id="google">
 
                     <img class="icon" src="imagens/logoGoogle.png" alt="" />
                     Entrar com Google
 
                     </button>
 
-                    <button type="button" class="btn-apple">
+                    <button type="button" id="apple">
 
                     <img class="icon" src="imagens/logoApple.png" alt="" />
                     Entrar com Apple
@@ -129,6 +132,21 @@
         </div>
 
     </div>
+
+    <footer>
+
+        <ul>
+
+          <li id="first"><a href="#">Sobre</a></li>
+          <li><a href="#">Central de Ajuda</a></li>
+          <li><a href="#">Termos de Serviço</a></li>
+          <li><a href="#">Política de privacidade</a></li>
+          <li><a href="#">Acessibilidade</a></li>
+          <li><a href="#">Política de cookies</a></li>
+
+        </ul>
+
+    </footer>
 
 </body>
 </html>
