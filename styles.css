@@ -1,0 +1,102 @@
+body{
+    margin:0;
+    padding: 0;
+}
+
+#header{
+    background-color: black;
+    height: 10vh;
+    width: 95,5vw;
+    display: flex;
+    padding: 5vh;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#logo{
+    height: 80px;
+    width: 80px;
+    margin-top: 1vh;
+}
+
+#header_direito{
+    display: flex;
+}
+
+#header_esquerdo{
+    width: 20vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+h2{
+    font-size:xx-large;
+    color: white;
+}
+
+h3{
+    font-size: xx-large;
+    color: orange;
+}
+
+#corpo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-image: url("imagens/Foto_Fluxo.png");
+    background-size: 100% 100%;
+    background-position: center;
+    height: 75vh;
+    padding: 15px;
+    width: 95,5vw;
+    filter: grayscale(90);
+    background-blend-mode: multiply;
+}
+
+#corpo_esquerdo{
+
+    align-items: start;
+    justify-content: center;
+
+}
+
+#corpo_direito{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+#pre_capa{
+    height: 100px;
+}
+
+
+.form-wrapper {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.esqeceu_senha {
+    color: #f68332;
+}
+  
+input[type="email"], input[type="password"] {
+  padding: 1.5em 0 1.5em 3em;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: calc(100% - 3em - 2px); /* 3em padding + 2px border */
+}
+
+input[type="email"]::placeholder {
+  margin-left: 0px;
+}
