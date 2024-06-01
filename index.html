@@ -1,119 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Social Fluxo</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
-
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
 
-    <div id="header">
+        <div id="header_1">
 
-        <div id="header_esquerdo">
-
-            <img id="logo" src="imagens/logoFluxo.png" alt="">
-            <h2>FluxoSocial</h2>
-
+            <div id="logo">
+                <img src="imagens/logoFluxo.png" alt="">
+            </div>
+            <h4>FluxoSocial</h4>
         </div>
 
-        <div id="header_direito">
-
+        <div id="header_2">
             <h3>It's happening now!</h3>
-
         </div>
 
-    </div>
+    </header>
 
     <div id="corpo">
 
-        <div id="corpo_esquerdo">
+        <div id="corpo_1">
+            <h1>Faça seu login!</h1>
 
-            <h4>Faça seu login!</h4>
-            <img id="pre_capa" src="imagens/Pré-Capa.png" alt="">
+            <div id="quadrado">
+
+                <img src="imagens/Pré-Capa2.png" alt="">
+
+            </div>
 
         </div>
-
-        <div id="corpo_direito">
+    
+        <div id="corpo_2">
 
             <form id="login_form">
 
-                <div class="form">
+                <div id="form">
 
-                  <label for="email">Email</label>
-                  <input
+                    <div id="email">
 
-                    type="email"
-                    id="email"
-                    name="email"
-                    required
-                    placeholder="Digite seu Email"
-
-                  />
-
-                </div>
-
-                <div class="form">
-
-                  <label for="password" placeholder="Digite sua senha">Senha</label>
-                  <a href="#" class="esqeceu_senha">Esqueceu sua senha?</a>
-                  <input
-
-                    type="password"
-                    id="password"
-                    name="password"
-                    required
-                    placeholder="Digite sua senha"
-
-                  />
-
-                </div>
-
-                <div class="form">
-
-                  <label class="toggle">
-
-                    <div class="switch">
-
-                      <input type="checkbox" />
-                      <span class="slider"></span>
+                        <label for="email">Email</label>
 
                     </div>
 
-                    <a id="remember" href="#">Lembrar-se de mim</a>
+                    <div>
 
-                  </label>
+                        <input
+
+                        type="email"
+                        id="email"
+                        name="email"
+                        required
+                        placeholder="Digite seu Email"
+
+                        />
+
+                    </div>
 
                 </div>
 
-                <button type="submit" class="btn-login">Entrar</button>
+                <div id="form_2">
+
+                    <div id="senha">
+
+                    <label id="password" placeholder="Digite sua senha">Senha</label>
+                    <a href="#" id="esqueceu_senha">Esqueceu sua senha?</a>
+
+                    </div>
+
+                    <div>
+
+                        <input
+
+                        type="password"
+                        id="password"
+                        name="password"
+                        required
+                        placeholder="Digite sua senha"
+    
+                        />
+
+                    </div>
+                    
+                </div>
+
+                <div class="form_3">
+
+                    <label class="toggle">
+                        <div class="switch">
+                          <input type="checkbox" />
+                          <span class="slider"></span>
+                        </div>
+                        <a id="remember" href="#">Lembrar-se de mim</a>
+                    </label>
+
+                </div>
+
+                <div id="entrar_button">
+
+                    <button type="submit" class="btn-login">Entrar</button>
+
+                </div>
 
                 <div class="outro_login">
 
-                  <button type="button" class="btn-google">
+                    <button type="button" class="btn-google">
 
-                    <img class="icon" src="imgs/logoGoogle.png" alt="" />
+                    <img class="icon" src="imagens/logoGoogle.png" alt="" />
                     Entrar com Google
 
-                  </button>
+                    </button>
 
-                  <button type="button" class="btn-apple">
+                    <button type="button" class="btn-apple">
 
-                    <img class="icon" src="imgs/logoApple.png" alt="" />
+                    <img class="icon" src="imagens/logoApple.png" alt="" />
                     Entrar com Apple
 
-                  </button>
+                    </button>
 
                 </div>
-
-              </form>
-
+            </form>
+    
         </div>
 
     </div>
-   
+
 </body>
 </html>
