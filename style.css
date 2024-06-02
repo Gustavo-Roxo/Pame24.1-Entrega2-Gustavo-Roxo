@@ -25,14 +25,12 @@ header{
 
 #header_1{
     height: 10vh;
-    width: 20vw;
     display: flex;
     align-content: center;
 }
 
 #header_2{
     height: 10vh;
-    width: 20vw;
 }
 
 #corpo{
@@ -42,7 +40,7 @@ header{
     justify-content: space-around;
     background-size: 100% 100%;
     background-position: center;
-    height: 90dvh;
+    height: 84dvh;
     width: 100vw;
 }
 
@@ -227,11 +225,11 @@ footer {
     position: sticky;
     background-color: #000;
     color: #fff;
-    padding: 2em 0;
     display: flex;
     justify-content: center;
     font-size: small;
     width: 100vw;
+    height: 6dvh;
 }
 
 ul {
