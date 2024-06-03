@@ -5,6 +5,6 @@ document.addEventListener('DOMContentLoaded', function () {
         var senha = document.getElementById('password').value
         var botao = document.getElementById('checkbox').checked
 
-        alert('Username: ' + email + '\nsenha: ' + senha + (botao ? '\nDados salvos' : '\nDados não salvos'))
+        alert('Email: ' + email + '\nsenha: ' + senha + (botao ? '\nDados salvos' : '\nDados não salvos'))
     })
 })

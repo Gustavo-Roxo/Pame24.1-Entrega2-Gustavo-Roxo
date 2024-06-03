@@ -1,11 +1,17 @@
+html{
+    background-color: #000;
+}
+
 body{
     margin: 0;
     padding: 0;
+    font-family: "helvetica neue", sans-serif;
+    overflow: hidden;
 }
 
 header{
     background-color: black;
-    height: 10vh;
+    height: 55px;
     width: 100vw;
     display: flex;
     align-items: center;
@@ -14,8 +20,8 @@ header{
 
 #logo{
     background-color: aqua;
-    height: 10vh;
-    width: 5vw;
+    height: 55px;
+    width: 55px;
 }
 
 #logo img{
@@ -24,17 +30,14 @@ header{
 }
 
 #header_1{
-    height: 10vh;
     display: flex;
-    align-content: center;
-}
-
-#header_2{
-    height: 10vh;
+    align-items: center;
 }
 
 #corpo{
     background-image: url("imagens/Foto_Fluxo2.png");
+    background-color: #c0bdbd;
+    background-blend-mode: multiply;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -65,9 +68,10 @@ h1{
 }
 
 #quadrado{
-    height: 30vh;
+    width: 100%;
+    /* height: 40vh;
     width: 30vw;
-    padding: 0;
+    padding: 0; */
 }
 
 #quadrado img{
@@ -105,10 +109,15 @@ input[type="email"], input[type="password"] {
 
 #esqueceu_senha{
     color: #f68332;
+    font-size: x-small;
 }
 
 #form{
     padding-bottom: 20px;
+}
+
+#form_2{
+    margin-bottom: 10px;
 }
 
 #form_3{
@@ -137,7 +146,7 @@ input[type="email"], input[type="password"] {
   
 #remember {
     color: #f68332;
-    font-size: 13px;
+    font-size: x-small;
     text-decoration: none;
     margin-left: 20px;
     align-self: center;
@@ -167,7 +176,8 @@ input[type="email"], input[type="password"] {
     padding: 2% 0;
     font-size: 11px;
     color: black;
-    border-radius: 10px;
+    border-radius: 20px;
+    padding-right: 10px;
 }
   
 #apple {
@@ -178,12 +188,14 @@ input[type="email"], input[type="password"] {
     padding: 2% 0;
     font-size: 11px;
     color: black;
-    border-radius: 10px;
+    border-radius: 20px;
+    padding-right: 10px;
 }  
 
 .icon {
     width: 20px;
     margin-right: 10px;
+    border-radius: 50px;
 }
   
 .switch input {
@@ -199,6 +211,7 @@ input[type="email"], input[type="password"] {
     border: 1px solid #414141;
     border-radius: 50px;
     transition: all 0.4s;
+    background: #bababa;
 }
   
 .slider:before {
